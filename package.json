@@ -1,0 +1,17 @@
+{
+  "name": "huize-jon-coffee-pos",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npx --yes http-server \"kasir fix\" -p 5173 -c-1 -o"
+  },
+  "devDependencies": {
+    "vite": "^5.4.1"
+  },
+  "dependencies": {
+    "acorn": "^8.18.0",
+    "fake-indexeddb": "^6.2.5",
+    "jsdom": "^29.1.1",
+    "puppeteer": "^25.7.0"
+  }
+}
